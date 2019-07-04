@@ -10,11 +10,7 @@ const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
 const browserSync = require("browser-sync").create();
 const jquery = require("gulp-jquery");
-const cssFiles = [
-  "./src/css/test.css",
-  "./src/css/main.css",
-  "./src/css/media.css"
-];
+const cssFiles = ["./src/css/test.css", "./src/css/media.css"];
 const jsFiles = ["./src/js/media.js", "./src/js/main.js"];
 const sassFiles = ["./src/sass/test.sass"];
 
