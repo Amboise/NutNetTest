@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#menuadapt").on("click",function(){$(".nav-menu").slideToggle(300)}),$(window).resize(function(){$(window).width()<960&&$(".nav-menu").hide(300)})}),$(document).ready(function(){$("a").click(function(){var n=$(this).attr("href"),t=$(n).offset().top;return jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop:t},500),!1})});
