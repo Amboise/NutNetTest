@@ -3,8 +3,9 @@ Host: https://esthete.000webhostapp.com/
 
 ## Local installation
 ```
+ Git clone
+ cd NutNetTest/
  $ npm install
- $ npm gulp (all-modules in gulpfile.js)
 ```
 ## Launch project
 ```
